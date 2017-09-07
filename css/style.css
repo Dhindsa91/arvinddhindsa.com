@@ -1,12 +1,14 @@
 #wrapper {
-  width: 960px;
-  background-color: #fff;
+  -webkit-box-align: center;
+  width: 100%;
+  background-color: lightgrey;
   margin-left: auto;
   margin-right: auto;
 }
 
 header {
-  height: 200px;
+  height: 50px;
+  background-color: slategrey;
 }
 
 nav {
@@ -14,11 +16,20 @@ nav {
 }
 
 #content {
-  float: left;
-  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 800px;
+  background-color: white;
 }
 
 footer {
   clear: both;
   height: 50px;
+  background-color: slategrey;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
 }
