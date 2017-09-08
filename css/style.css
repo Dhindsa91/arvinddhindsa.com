@@ -1,4 +1,4 @@
-#wrapper {
+.container {
   -webkit-box-align: center;
   width: 100%;
   background-color: lightgrey;
@@ -6,30 +6,25 @@
   margin-right: auto;
 }
 
-header {
-  height: 50px;
+.page-header {
+  height: 100px;
   background-color: slategrey;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-nav {
-  width: 960px;
-}
-
-#content {
+.jumbotron {
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
   height: 800px;
   background-color: white;
 }
 
-footer {
+.page-footer {
   clear: both;
-  height: 50px;
+  height: 75px;
   background-color: slategrey;
-}
-
-h1 {
-  padding: 20px;
-  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 10px;
 }
