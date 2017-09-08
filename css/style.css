@@ -1,30 +1,21 @@
 .container {
-  -webkit-box-align: center;
-  width: 100%;
   background-color: lightgrey;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 0px;
+  width: 100%;
 }
 
 .page-header {
-  height: 100px;
   background-color: slategrey;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.jumbotron {
-  margin-left: auto;
-  margin-right: auto;
-  height: 800px;
-  background-color: white;
+  padding: 5px;
 }
 
 .page-footer {
-  clear: both;
-  height: 75px;
-  background-color: slategrey;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  padding: 10px;
+  background-color: #5e5e5e;
+  height: 50px;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  height: 50px;
 }
